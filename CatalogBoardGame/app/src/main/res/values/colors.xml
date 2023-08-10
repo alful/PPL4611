@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E4DCE</color>
+    <color name="colorPrimaryDark">#2944B3</color>
+    <color name="colorAccent">#5475FF</color>
+    <color name="teal_200">#3BA2F1</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#111111</color>
+    <color name="white">#FBFDFF</color>
+    <color name="blue">#0029FF</color>
+    <color name="dhss">#2197f4</color>
+    <color name="dhss2">#e22166</color>
+    <color name="colorAbu">#ebebeb</color>
+    <color name="colorAbu2">#ffffff</color>
+    <color name="entry">#2b3d8e</color>
+    <color name="entry2">#2197f4</color>
+    <color name="text2">#5B5B5B</color>
+    <color name="abugelap">#4B5C68</color>
+    <color name="merah">#F4051E</color>
+    <color name="black2">#282626</color>
+</resources>

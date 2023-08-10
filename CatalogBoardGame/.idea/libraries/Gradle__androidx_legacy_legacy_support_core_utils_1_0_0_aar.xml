@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.legacy:legacy-support-core-utils:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/0c98bf72e004d629391f8f9fc70b100e/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/76e6658c7774f3fee37a1936cebe792f/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0c98bf72e004d629391f8f9fc70b100e/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/a08a61d091975000a4dce67a59e2d28a/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/8b100cf62939513431b32808ccf2eb09/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/8b100cf62939513431b32808ccf2eb09/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/8b100cf62939513431b32808ccf2eb09/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8b100cf62939513431b32808ccf2eb09/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46c7afe2f779c98cd40b0baf421fa70d/transformed/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/46c7afe2f779c98cd40b0baf421fa70d/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/46c7afe2f779c98cd40b0baf421fa70d/transformed/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/SteamAhead-master/.gradle/gradle-6.8.3/caches/transforms-2/files-2.1/fb7861c9a3177fb8280df41de68f938e/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb7861c9a3177fb8280df41de68f938e/legacy-support-core-utils-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb7861c9a3177fb8280df41de68f938e/legacy-support-core-utils-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fb7861c9a3177fb8280df41de68f938e/legacy-support-core-utils-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../SteamAhead-master/.gradle/gradle-6.8.3/caches/modules-2/files-2.1/androidx.legacy/legacy-support-core-utils/1.0.0/46c37f178088153618cfb0afef08ec96c48f93cb/legacy-support-core-utils-1.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.legacy/legacy-support-core-utils/1.0.0/46c37f178088153618cfb0afef08ec96c48f93cb/legacy-support-core-utils-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

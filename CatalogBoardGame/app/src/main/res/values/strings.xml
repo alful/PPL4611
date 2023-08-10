@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Board Game</string>
+
+    <string-array name="kategori">
+        <item>PILIH KATEGORI</item>
+        <item>EASY</item>
+        <item>MEDIUM</item>
+        <item>HARD</item>
+    </string-array>
+</resources>

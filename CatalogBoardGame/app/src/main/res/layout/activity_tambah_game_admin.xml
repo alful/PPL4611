@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambahGameAdmin.tambah_game_admin">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TAMBAH GAME"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/idETNamaGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Nama Game" ></EditText>
+
+    <Spinner
+        android:id="@+id/idSPKategori"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:entries="@array/kategori"></Spinner>
+
+    <ImageView
+        android:id="@+id/idIVGambarGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:src="@drawable/ic_launcher_background"></ImageView>
+
+<!--    <Button-->
+<!--        android:id="@+id/idBUpload"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="UPLOAD GAMBAR"></Button>-->
+
+    <EditText
+        android:id="@+id/idETJumlahPemain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Jumlah Pemain"></EditText>
+
+    <EditText
+        android:id="@+id/idETDeskripsiGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:hint="Deskripsi Game"></EditText>
+
+    <Button
+        android:id="@+id/idBTambahGame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TAMBAH GAME"></Button>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+</LinearLayout>

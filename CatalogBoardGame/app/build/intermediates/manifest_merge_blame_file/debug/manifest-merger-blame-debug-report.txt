@@ -1,0 +1,489 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.catalogboardgame"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:8:5-80
+13-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:8:22-77
+14
+15    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\db8b412181fed5bc26e53d2853854fc1\transformed\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:5-68
+18-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\db8b412181fed5bc26e53d2853854fc1\transformed\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+19-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+19-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+20
+21    <application
+21-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:10:5-196:19
+22        android:allowBackup="true"
+22-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0-alpha02] C:\Users\alful\.gradle\caches\transforms-3\104c82314d00d66083f9d511f9d095fc\transformed\core-1.7.0-alpha02\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:12:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:13:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:14:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:15:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:16:9-40
+31        <activity android:name="com.example.catalogboardgame.DashboardAdmin.EditData" />
+31-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:9-70
+31-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:18:19-58
+32        <activity android:name="com.example.catalogboardgame.DashboardAdmin.EditAdmin" />
+32-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:19:9-62
+32-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:19:19-59
+33        <activity android:name="com.example.catalogboardgame.user.EditUser" />
+33-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:9-51
+33-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:20:19-48
+34        <activity android:name="com.example.catalogboardgame.LeaderboardClient.LeaderboardAdmin" />
+34-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:21:9-72
+34-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:21:19-69
+35        <activity android:name="com.example.catalogboardgame.DashboardAdmin.TampilUserRecycler" >
+35-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:22:9-30:20
+35-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:22:19-68
+36
+37            <!-- <intent-filter> -->
+38            <!-- <action android:name="android.intent.action.MAIN" /> -->
+39
+40
+41            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+42            <!-- </intent-filter> -->
+43        </activity>
+44        <activity android:name="com.example.catalogboardgame.SplashScreen" >
+44-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:31:9-37:20
+44-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:31:19-47
+45            <intent-filter>
+45-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:32:13-36:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:33:17-69
+46-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:33:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:35:17-77
+48-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:35:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.example.catalogboardgame.firebaseauth.LogAuth2" >
+51-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:38:9-46:20
+51-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:38:19-56
+52
+53            <!-- <intent-filter> -->
+54            <!-- <action android:name="android.intent.action.MAIN" /> -->
+55
+56
+57            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+58            <!-- </intent-filter> -->
+59        </activity>
+60        <activity android:name="com.example.catalogboardgame.MainActivity2" />
+60-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:47:9-51
+60-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:47:19-48
+61        <activity android:name="com.example.catalogboardgame.DashboardAdmin.TampilUser" >
+61-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:48:9-56:20
+61-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:48:19-60
+62
+63            <!-- <intent-filter> -->
+64            <!-- <action android:name="android.intent.action.MAIN" /> -->
+65
+66
+67            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+68            <!-- </intent-filter> -->
+69        </activity>
+70        <activity android:name="com.example.catalogboardgame.firebaseauth.RgisterAuth" >
+70-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:57:9-65:20
+70-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:57:19-59
+71
+72            <!-- <intent-filter> -->
+73            <!-- <action android:name="android.intent.action.MAIN" /> -->
+74
+75
+76            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+77            <!-- </intent-filter> -->
+78        </activity>
+79        <activity android:name="com.example.catalogboardgame.firebaseauth.LoginAuth" >
+79-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:66:9-74:20
+79-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:66:19-57
+80
+81            <!-- <intent-filter> -->
+82            <!-- <action android:name="android.intent.action.MAIN" /> -->
+83
+84
+85            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+86            <!-- </intent-filter> -->
+87        </activity>
+88        <activity android:name="com.example.catalogboardgame.KonfirmasiHistory.KonfirmasiHistory" >
+88-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:75:9-83:20
+88-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:75:19-70
+89
+90            <!-- <intent-filter> -->
+91            <!-- <action android:name="android.intent.action.MAIN" /> -->
+92
+93
+94            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+95            <!-- </intent-filter> -->
+96        </activity>
+97        <activity android:name="com.example.catalogboardgame.LeaderboardClient.LeaderboardClient" />
+97-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:84:9-73
+97-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:84:19-70
+98        <activity android:name="com.example.catalogboardgame.TambahHistoryClient.TambahHistoryClient" >
+98-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:85:9-93:20
+98-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:85:19-74
+99
+100            <!-- <intent-filter> -->
+101            <!-- <action android:name="android.intent.action.MAIN" /> -->
+102
+103
+104            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+105            <!-- </intent-filter> -->
+106        </activity>
+107        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActivitiAdm" />
+107-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:94:9-82
+107-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:94:19-79
+108        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameAdm" />
+108-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:95:9-64
+108-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:95:19-61
+109        <activity android:name="com.example.catalogboardgame.LeaderboardUser" />
+109-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:96:9-53
+109-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:96:19-50
+110        <activity android:name="com.example.catalogboardgame.LeaderboardUser.LeaderboardAdm" />
+110-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:97:9-68
+110-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:97:19-65
+111        <activity android:name="com.example.catalogboardgame.BacaGameAdmin" />
+111-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:98:9-51
+111-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:98:19-48
+112        <activity android:name="com.example.catalogboardgame.Export" />
+112-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:99:9-44
+112-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:99:19-41
+113        <activity android:name="com.example.catalogboardgame.user.DashUser" />
+113-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:100:9-51
+113-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:100:19-48
+114        <activity android:name="com.example.catalogboardgame.TambahGameAdmin.TbhGame" >
+114-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:101:9-109:20
+114-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:101:19-58
+115
+116            <!-- <intent-filter> -->
+117            <!-- <action android:name="android.intent.action.MAIN" /> -->
+118
+119
+120            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+121            <!-- </intent-filter> -->
+122        </activity>
+123        <activity android:name="com.example.catalogboardgame.Sign.Login" >
+123-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:110:9-118:20
+123-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:110:19-45
+124
+125            <!-- <intent-filter> -->
+126            <!-- <action android:name="android.intent.action.MAIN" /> -->
+127
+128
+129            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+130            <!-- </intent-filter> -->
+131        </activity>
+132        <activity android:name="com.example.catalogboardgame.Sign.Daftar" />
+132-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:119:9-49
+132-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:119:19-46
+133        <activity android:name="com.example.catalogboardgame.DashboardAdmin.DashAdmin" >
+133-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:120:9-128:20
+133-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:120:19-59
+134
+135            <!-- <intent-filter> -->
+136            <!-- <action android:name="android.intent.action.MAIN" /> -->
+137
+138
+139            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+140            <!-- </intent-filter> -->
+141        </activity>
+142        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameCLientActiviti" >
+142-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:129:9-137:20
+142-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:129:19-76
+143
+144            <!-- <intent-filter> -->
+145            <!-- <action android:name="android.intent.action.MAIN" /> -->
+146
+147
+148            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+149            <!-- </intent-filter> -->
+150        </activity>
+151        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameClients" /> <!-- <activity android:name=".Sign.Masuk"> -->
+151-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:138:9-68
+151-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:138:19-65
+152        <!-- <intent-filter> -->
+153        <!-- <action android:name="android.intent.action.MAIN" /> -->
+154        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+155        <!-- </intent-filter> -->
+156        <!-- </activity> -->
+157        <!-- <activity android:name=".Sign.Sign"> -->
+158        <!-- <intent-filter> -->
+159        <!-- <action android:name="android.intent.action.MAIN" /> -->
+160        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+161        <!-- </intent-filter> -->
+162        <!-- </activity> -->
+163        <!-- <activity android:name=".Sign.SignUp"> -->
+164        <!-- <intent-filter> -->
+165        <!-- <action android:name="android.intent.action.MAIN" /> -->
+166        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+167        <!-- </intent-filter> -->
+168        <!-- </activity> -->
+169        <!-- <activity android:name=".DashboardAdmin.dbAdmin"> -->
+170        <!-- <intent-filter> -->
+171        <!-- <action android:name="android.intent.action.MAIN" /> -->
+172        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+173        <!-- </intent-filter> -->
+174        <!-- </activity> -->
+175        <!-- <activity android:name=".Sign.SignIn"> -->
+176        <!-- <intent-filter> -->
+177        <!-- <action android:name="android.intent.action.MAIN" /> -->
+178        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+179        <!-- </intent-filter> -->
+180        <!-- </activity> -->
+181        <activity android:name="com.example.catalogboardgame.TambahGameAdmin.tambah_game_admin" >
+181-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:168:9-176:20
+181-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:168:19-68
+182
+183            <!-- <intent-filter> -->
+184            <!-- <action android:name="android.intent.action.MAIN" /> -->
+185
+186
+187            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+188            <!-- </intent-filter> -->
+189        </activity>
+190        <activity android:name="com.example.catalogboardgame.DaftarGameClient.DaftarGameClientActivity" >
+190-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:177:9-185:20
+190-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:177:19-76
+191
+192            <!-- <intent-filter> -->
+193            <!-- <action android:name="android.intent.action.MAIN" /> -->
+194
+195
+196            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+197            <!-- </intent-filter> -->
+198        </activity>
+199        <activity android:name="com.example.catalogboardgame.BacaGameClient.BacaGameClient" />
+199-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:186:9-67
+199-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:186:19-64
+200        <activity android:name="com.example.catalogboardgame.MainActivity" >
+200-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:187:9-195:20
+200-->C:\Users\alful\OneDrive\Documents\GitHub\PPL4611\CatalogBoardGame\app\src\main\AndroidManifest.xml:187:19-47
+201
+202            <!-- <intent-filter> -->
+203            <!-- <action android:name="android.intent.action.MAIN" /> -->
+204
+205
+206            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+207            <!-- </intent-filter> -->
+208        </activity>
+209
+210        <service
+210-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:29:9-35:19
+211            android:name="com.google.firebase.components.ComponentDiscoveryService"
+211-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:30:13-84
+212            android:directBootAware="true"
+212-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+213            android:exported="false" >
+213-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:31:13-37
+214            <meta-data
+214-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:32:13-34:85
+215                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+215-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:33:17-109
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-database:20.0.1] C:\Users\alful\.gradle\caches\transforms-3\7221a69688f936019a5fc568a60a8c8f\transformed\jetified-firebase-database-20.0.1\AndroidManifest.xml:34:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+218                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+218-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\fd828a1cbc06e94967bcff40b57e4c54\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+221                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+221-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\fd828a1cbc06e94967bcff40b57e4c54\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\fd828a1cbc06e94967bcff40b57e4c54\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+223            <meta-data
+223-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\db8b412181fed5bc26e53d2853854fc1\transformed\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+224                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+224-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\db8b412181fed5bc26e53d2853854fc1\transformed\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\db8b412181fed5bc26e53d2853854fc1\transformed\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\alful\.gradle\caches\transforms-3\d17f914e43c64fb37b5e1b06967fccfa\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+227                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+227-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\alful\.gradle\caches\transforms-3\d17f914e43c64fb37b5e1b06967fccfa\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\alful\.gradle\caches\transforms-3\d17f914e43c64fb37b5e1b06967fccfa\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+229        </service>
+230
+231        <activity
+231-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+232            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+232-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+233            android:excludeFromRecents="true"
+233-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+234            android:exported="true"
+234-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+235            android:launchMode="singleTask"
+235-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+236            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+236-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+237            <intent-filter>
+237-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+238                <action android:name="android.intent.action.VIEW" />
+238-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+238-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+239
+240                <category android:name="android.intent.category.DEFAULT" />
+240-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+240-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+241                <category android:name="android.intent.category.BROWSABLE" />
+241-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+241-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+242
+243                <data
+243-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+244                    android:host="firebase.auth"
+244-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+245                    android:path="/"
+245-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+246                    android:scheme="genericidp" />
+246-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+247            </intent-filter>
+248        </activity>
+249        <activity
+249-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+250            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+250-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+251            android:excludeFromRecents="true"
+251-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+252            android:exported="true"
+252-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+253            android:launchMode="singleTask"
+253-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+254-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+255            <intent-filter>
+255-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+256                <action android:name="android.intent.action.VIEW" />
+256-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+256-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+257
+258                <category android:name="android.intent.category.DEFAULT" />
+258-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+258-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+259                <category android:name="android.intent.category.BROWSABLE" />
+259-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+259-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+260
+261                <data
+261-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+262                    android:host="firebase.auth"
+262-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+263                    android:path="/"
+263-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+264                    android:scheme="recaptcha" />
+264-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+265            </intent-filter>
+266        </activity>
+267
+268        <service
+268-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+269            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+269-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+270            android:enabled="true"
+270-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+271            android:exported="false" >
+271-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+272            <intent-filter>
+272-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+273                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+273-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+273-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+274
+275                <category android:name="android.intent.category.DEFAULT" />
+275-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+275-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\alful\.gradle\caches\transforms-3\b5005a50f9e588e6562b58a314de0cf4\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+276            </intent-filter>
+277        </service>
+278
+279        <activity
+279-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\292e81c80ab23544aa4642a5030268c1\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+280            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+280-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\292e81c80ab23544aa4642a5030268c1\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+281            android:exported="false"
+281-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\292e81c80ab23544aa4642a5030268c1\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+282            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+282-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\292e81c80ab23544aa4642a5030268c1\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+283
+284        <provider
+284-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+285            android:name="com.google.firebase.provider.FirebaseInitProvider"
+285-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+286            android:authorities="com.example.catalogboardgame.firebaseinitprovider"
+286-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+287            android:directBootAware="true"
+287-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+288            android:exported="false"
+288-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+289            android:initOrder="100" />
+289-->[com.google.firebase:firebase-common:20.0.0] C:\Users\alful\.gradle\caches\transforms-3\3434c465fd4c5a7cef643cedf90e31fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+290
+291        <receiver
+291-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+292            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+292-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+294            android:exported="false" >
+294-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+295        </receiver>
+296
+297        <service
+297-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+298            android:name="com.google.android.gms.measurement.AppMeasurementService"
+298-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+299            android:enabled="true"
+299-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+300            android:exported="false" />
+300-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+301        <service
+301-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+302            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+302-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+303            android:enabled="true"
+303-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+304            android:exported="false"
+304-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+305            android:permission="android.permission.BIND_JOB_SERVICE" />
+305-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\alful\.gradle\caches\transforms-3\06a0ba8a375c2d0544152b380449350e\transformed\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+306
+307        <meta-data
+307-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\1243b41399fe91fad0eda836f5d09fc2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+308            android:name="com.google.android.gms.version"
+308-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\1243b41399fe91fad0eda836f5d09fc2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+309            android:value="@integer/google_play_services_version" />
+309-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\alful\.gradle\caches\transforms-3\1243b41399fe91fad0eda836f5d09fc2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+310    </application>
+311
+312</manifest>
